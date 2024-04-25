@@ -1,7 +1,19 @@
-.banner{
-    width: 1440px;
-    height: 64px;
+.section-banner{
+    width: 120rem;
+    height: 30rem;
     margin: auto;
-    margin-right: 100px;
-    background-color: #F9F3FE;
+    
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+}
+.c-img{
+    width: 120rem;
+    height: 30rem;
+}
+.c-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
